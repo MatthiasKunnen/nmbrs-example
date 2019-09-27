@@ -5,3 +5,13 @@ NMBRS Example
 =================
 
 Fetches all absences of all people in a NMBRS account and stores them in a JSON file.
+
+# Configuration
+Change configuration by creating `src/config/config.local.ts`. Example:
+
+```TypeScript
+import { config } from './config';
+
+config.aws.credentials.accessKeyId = 'AWS access key here';
+config.aws.credentials.secretAccessKey = 'AWS secret key here';
+```
