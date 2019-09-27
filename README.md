@@ -1,3 +1,6 @@
+[![Build Status](https://img.shields.io/azure-devops/build/MatthiasKunnen/nmbrs-example/MatthiasKunnen.nmbrs-example.svg?logo=azure-pipelines&style=for-the-badge)
+](https://dev.azure.com/MatthiasKunnen/NMBRS-Example/_build)
+
 NMBRS Example
 =================
 

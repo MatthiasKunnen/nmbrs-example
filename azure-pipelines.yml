@@ -1,0 +1,21 @@
+stages:
+  -
+    stage: BuildTestLint
+    displayName: Build, test, and lint
+    jobs:
+      -
+        job: Build
+        pool:
+          vmImage: 'ubuntu-16.04'
+        steps:
+          - script: |
+              npm ci
+              npm run build
+      -
+        job: Lint
+        pool:
+          vmImage: 'ubuntu-16.04'
+        steps:
+          - script: |
+              npm ci
+              npm run lint
